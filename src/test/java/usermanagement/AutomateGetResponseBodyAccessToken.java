@@ -9,7 +9,10 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class AutomateGetResponseBodyAccessToken {
 
+
+
     // Replace these constants with your actual authentication details
+
     private static final String CLIENT_ID = "web";
     private static final String CLIENT_SECRET = "your_client_secret";
     private static final String TOKEN_URL = "your_token_url";
@@ -52,6 +55,11 @@ public class AutomateGetResponseBodyAccessToken {
 
         // Print response details if needed
         System.out.println("Response status code: " + response.getStatusCode());
+
+        System.out.println("Response body: " + response.getBody().asString());git
+        
+
         System.out.println("Response body: " + response.getBody().asString());
+
     }
 }
