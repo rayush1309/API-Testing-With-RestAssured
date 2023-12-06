@@ -8,9 +8,9 @@ public class getResponseBodyAut {
     @Test
     public void getResponseBody() {
         // Set base URI for the API
-        RestAssured.baseURI = "https://stageapp.tekioncloud.xyz";
+        RestAssured.baseURI = "https://URI";
 
-        given().when().get("api/wms/parts/u/inventory/utility/extended/report/compute/all-sites")
+        given().when().get("api/endPoint")
                 .then()
                 .statusCode(401)
                 .body(not(isEmptyString()))
