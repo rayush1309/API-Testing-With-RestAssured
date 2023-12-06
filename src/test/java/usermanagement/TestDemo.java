@@ -13,10 +13,10 @@ public class TestDemo {
     public void getData() {
         // Given
         RestAssured.given()
-                .baseUri("https://preprodfrapp-eu-west.tekion.xyz/api/wms/u/vendor/partDetails/process/bulk/vendorPartDetails")
+                .baseUri("https:URIils")
                 // When
                 .when()
-                .get("/u/vendor/partDetails/process/bulk/vendorPartDetails")
+                .get("/u/endPoint")
 
                 // Then
                 .then()
