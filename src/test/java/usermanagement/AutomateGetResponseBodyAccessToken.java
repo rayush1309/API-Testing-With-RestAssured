@@ -35,7 +35,7 @@ public class AutomateGetResponseBodyAccessToken {
     @Test
     public void getResponseBody() {
         // Set base URI for the API
-        RestAssured.baseURI = "https://stageapp.tekioncloud.xyz";
+        RestAssured.baseURI = "https://";
 
         // Get the latest access token
         String accessToken = getAccessToken();
@@ -44,7 +44,7 @@ public class AutomateGetResponseBodyAccessToken {
         Response response = given()
                 .header("Authorization", "Bearer " + accessToken)
                 .when()
-                .get("/api/wms/parts/u/inventory/utility/extended/report/compute/all-sites");
+                .get("//all-sites");
 
         // Validate response
         response.then()
