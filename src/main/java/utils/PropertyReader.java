@@ -13,7 +13,7 @@ public class PropertyReader {
 
         //Inputstream is required while loading into properties
 
-        try (InputStream input = new FileInputStream(filePath))
+        try (InputStream input = new FileInputStream("enviornmentdetails.properties"))
         {
 
             // object creation for Property class

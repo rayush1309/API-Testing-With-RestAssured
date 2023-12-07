@@ -13,6 +13,7 @@ public class ValidateTestDataFromPropertyFile {
     public void validateStatusCode() {
         String webURI= PropertyReader.propertyReader("enviornmentdetails","URI");
         String endPoints=PropertyReader.propertyReader("enviornmentdetails","endpoint");
+        System.out.println(webURI+endPoints);
 
         // Send a GET request with a query parameter "page" set to 2 and store the response
         RestAssured.baseURI=webURI;//reading from properties file;

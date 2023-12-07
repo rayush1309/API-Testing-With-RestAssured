@@ -1,19 +1,18 @@
-package userManagement;
+package userMangement;
 
 import core.StatusCode;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.json.simple.parser.ParseException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utils.JsonReader;
 
 import java.io.IOException;
-import org.json.simple.parser.ParseException;
 
 import static io.restassured.RestAssured.given;
 
-public class ValidateWithTestDataFromJson {
-
+public class ValidationTestDataFromJsonRead {
     @Test
     public void validateBasicAuthenticationWithTestData() throws IOException, ParseException {
         String userName = JsonReader.getTestData("username");
@@ -28,7 +27,7 @@ public class ValidateWithTestDataFromJson {
 
         int actualStatusCode = response.statusCode();
         Assert.assertEquals(actualStatusCode, StatusCode.SUCCESS.code);
-       // System.out.println(response.body().asString());
+        // System.out.println(response.body().asString());
     }
 
     @Test
@@ -48,4 +47,5 @@ public class ValidateWithTestDataFromJson {
         Assert.assertEquals(actualStatusCode, StatusCode.SUCCESS.code);
         //System.out.println(response.body().asString());
     }
+
 }
