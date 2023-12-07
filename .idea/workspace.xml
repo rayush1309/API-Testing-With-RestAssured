@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/testData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/StatusCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/AutomateGetResponseBodyAccessToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/End2EndAutomation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ExampleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/FormParamRestAssured.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/JsonReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/PathParameterRestAssured.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/PerformTestDataValidationViaJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/RestAssuredExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/TestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateBasicAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateCookies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateCookies2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateDeleteMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateGetuserListWithMultipleHeaders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateMultipleHeadersUsingMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateResponseHeaders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateResponsehasItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateStatusCodeQueryParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidatefirstListData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateresponseContains.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/getResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/getResponseBodyAut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/validateResponsehasSize.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
