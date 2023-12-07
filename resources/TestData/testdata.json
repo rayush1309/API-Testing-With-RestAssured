@@ -1,4 +1,5 @@
 {
   "username": "postman",
-  "password": "password"
+  "password": "password",
+  "endpoint": "/api/users"
 }

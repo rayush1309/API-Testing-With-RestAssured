@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/src/test/java/userMangement/ValidationTestDataFromJsonRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/userMangement/ValidateTestDataFromJSONAndPropertyFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateTestDataFromPropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/userMangement/ValidateTestDataFromPropertyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/userMangement/ValidateWithTestDataFromJson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/JsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/TestData/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestData/testdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/PerformTestDataValidationViaJson.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/rest-assured" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/userMangement/ValidateWithTestDataFromJson.java" root0="SKIP_HIGHLIGHTING" />
@@ -56,7 +55,7 @@
     &quot;last_directory_selection&quot;: &quot;/Users/aushraj/IdeaProjects/RestAssuredAPITesting/src/test/java&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ValidateTestDataFromPropertyFile">
+  <component name="RunManager" selected="TestNG.ValidateTestDataFromJSONAndPropertyFile">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -67,6 +66,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.End2EndAutomation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateGetuserListWithMultipleHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userMangement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userMangement" />
+      <option name="MAIN_CLASS_NAME" value="userMangement.ValidateGetuserListWithMultipleHeaders" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -91,6 +107,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateTestDataFromJSONAndPropertyFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userMangement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userMangement" />
+      <option name="MAIN_CLASS_NAME" value="userMangement.ValidateTestDataFromJSONAndPropertyFile" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidateTestDataFromPropertyFile" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -101,23 +134,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.ValidateTestDataFromPropertyFile" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateWithTestDataFromJson (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userManagement" />
-      <option name="MAIN_CLASS_NAME" value="userManagement.ValidateWithTestDataFromJson" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -158,17 +174,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
+      <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
+      <item itemvalue="TestNG.ValidateTestDataFromJSONAndPropertyFile" />
       <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
       <item itemvalue="TestNG.userMangement.End2EndAutomation,validateBasicAuthentication and 1 more" />
       <item itemvalue="TestNG.ValidateStatusCodeQueryParam" />
-      <item itemvalue="TestNG.ValidateWithTestDataFromJson (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ValidateTestDataFromJSONAndPropertyFile" />
+        <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
         <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
         <item itemvalue="TestNG.ValidateStatusCodeQueryParam" />
         <item itemvalue="TestNG.userMangement.End2EndAutomation,validateBasicAuthentication and 1 more" />
-        <item itemvalue="TestNG.ValidateWithTestDataFromJson (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +232,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/userMangement/ValidateMultipleHeadersUsingMap.java</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/userMangement/ValidateTestDataFromJSONAndPropertyFile.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
