@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePatchrequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TestData/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestData/testdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidateWithSoftwareUtils.Test">
+  <component name="RunManager" selected="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -82,17 +83,87 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGSuiteDesign2.fetchCookieFromResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePatchrequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.TestNGSuiteDesign2" />
-      <option name="METHOD_NAME" value="fetchCookieFromResponse" />
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchrequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePatchrequest.validatePATCHRequestUsingString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchrequest" />
+      <option name="METHOD_NAME" value="validatePATCHRequestUsingString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePostRequestbodyAut.validatePostWithString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePostRequestbodyAut" />
+      <option name="METHOD_NAME" value="validatePostWithString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePutRequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePutRequest.validatePutRequestUsingString" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePutRequest" />
+      <option name="METHOD_NAME" value="validatePutRequestUsingString" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,78 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateWithSoftwareUtils.Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateWithSoftwareUtils" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateWithSoftwareUtils.TestJsonArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateWithSoftwareUtils" />
-      <option name="METHOD_NAME" value="TestJsonArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/ParallelTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
-      <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
-      <item itemvalue="TestNG.ValidateWithSoftwareUtils.Test" />
-      <item itemvalue="TestNG.ValidateWithSoftwareUtils.TestJsonArray" />
+      <item itemvalue="TestNG.ValidatePatchrequest" />
+      <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
+      <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithString" />
+      <item itemvalue="TestNG.ValidatePutRequest" />
+      <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ValidateWithSoftwareUtils.Test" />
-        <item itemvalue="TestNG.ValidateWithSoftwareUtils.TestJsonArray" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
-        <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
+        <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
+        <item itemvalue="TestNG.ValidatePatchrequest" />
+        <item itemvalue="TestNG.ValidatePutRequest" />
+        <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
+        <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithString" />
       </list>
     </recent_temporary>
   </component>
