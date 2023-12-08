@@ -7,7 +7,6 @@
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/TestData/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestData/testdata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JsonArrayReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JsonArrayReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateWithSoftwareUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidateWithSoftwareUtils.TestJsonArray">
+  <component name="RunManager" selected="TestNG.ValidateWithSoftwareUtils.Test">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -118,6 +117,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateWithSoftwareUtils.Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateWithSoftwareUtils" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidateWithSoftwareUtils.TestJsonArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -146,16 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" />
@@ -170,18 +177,18 @@
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
       <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
+      <item itemvalue="TestNG.ValidateWithSoftwareUtils.Test" />
       <item itemvalue="TestNG.ValidateWithSoftwareUtils.TestJsonArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ValidateWithSoftwareUtils.Test" />
         <item itemvalue="TestNG.ValidateWithSoftwareUtils.TestJsonArray" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
         <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       </list>
     </recent_temporary>
   </component>
