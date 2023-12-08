@@ -1,4 +1,4 @@
-package userMangement;
+package restAssuredApiFramewok;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;

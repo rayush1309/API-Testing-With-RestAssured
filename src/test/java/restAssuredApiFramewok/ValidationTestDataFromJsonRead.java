@@ -1,4 +1,4 @@
-package userMangement;
+package restAssuredApiFramewok;
 
 import core.StatusCode;
 import io.restassured.RestAssured;

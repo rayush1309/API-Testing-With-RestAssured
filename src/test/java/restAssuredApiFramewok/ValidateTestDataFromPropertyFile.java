@@ -1,27 +1,18 @@
-package userMangement;
+package restAssuredApiFramewok;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;
-import utils.JsonReader;
 import utils.PropertyReader;
-
-import javax.imageio.IIOException;
-
-import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;
 
-public class ValidateTestDataFromJSONAndPropertyFile {
+public class ValidateTestDataFromPropertyFile {
     @Test
-    public void validateStatusCode() throws IOException, ParseException {
-        //property file
+    public void validateStatusCode() {
         String webURI= PropertyReader.propertyReader("enviornmentdetails","URI");
-        //json
-        String endPoints = JsonReader.getTestData("endpoint");
-
+        String endPoints=PropertyReader.propertyReader("enviornmentdetails","endpoint");
         System.out.println(webURI+endPoints);
 
         // Send a GET request with a query parameter "page" set to 2 and store the response

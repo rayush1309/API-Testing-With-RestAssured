@@ -1,4 +1,4 @@
-package userMangement;
+package restAssuredApiFramewok;
 
 import io.restassured.RestAssured;
 import org.junit.Test;

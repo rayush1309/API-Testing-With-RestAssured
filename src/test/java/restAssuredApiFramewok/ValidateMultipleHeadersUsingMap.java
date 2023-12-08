@@ -1,4 +1,4 @@
-package userMangement;
+package restAssuredApiFramewok;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 import java.util.HashMap;
