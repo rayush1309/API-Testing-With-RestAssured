@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SoftAssertionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/userMangement/ValidateWithSoftwareUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/userMangement/DataProviderValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,41 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ValidateWithSoftwareUtils.validateResponseUsingSoftUtils">
+  <component name="RunManager" selected="TestNG.DataProviderValidation (1)">
+    <configuration name="DataProviderValidation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userManagement" />
+      <option name="MAIN_CLASS_NAME" value="userManagement.DataProviderValidation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userMangement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userMangement" />
+      <option name="MAIN_CLASS_NAME" value="userMangement.DataProviderValidation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -69,58 +101,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.End2EndAutomation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftAndHardAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.SoftAndHardAssertion" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoftAndHardAssertion.SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.SoftAndHardAssertion" />
-      <option name="METHOD_NAME" value="SoftAssertion" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateStatusCodeQueryParam" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.ValidateStatusCodeQueryParam" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -180,22 +160,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidationTestDataFromJsonRead" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userMangement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="userMangement" />
+      <option name="MAIN_CLASS_NAME" value="userMangement.ValidationTestDataFromJsonRead" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG.ValidateStatusCodeQueryParam" />
+      <item itemvalue="TestNG.DataProviderValidation" />
+      <item itemvalue="TestNG.DataProviderValidation (1)" />
       <item itemvalue="TestNG.ValidateWithSoftwareUtils" />
       <item itemvalue="TestNG.ValidateWithSoftwareUtils.validateResponseUsingSoftUtils" />
-      <item itemvalue="TestNG.SoftAndHardAssertion" />
-      <item itemvalue="TestNG.SoftAndHardAssertion.SoftAssertion" />
+      <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DataProviderValidation (1)" />
+        <item itemvalue="TestNG.DataProviderValidation" />
+        <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
         <item itemvalue="TestNG.ValidateWithSoftwareUtils.validateResponseUsingSoftUtils" />
         <item itemvalue="TestNG.ValidateWithSoftwareUtils" />
-        <item itemvalue="TestNG.ValidateStatusCodeQueryParam" />
-        <item itemvalue="TestNG.SoftAndHardAssertion" />
-        <item itemvalue="TestNG.SoftAndHardAssertion.SoftAssertion" />
       </list>
     </recent_temporary>
   </component>
