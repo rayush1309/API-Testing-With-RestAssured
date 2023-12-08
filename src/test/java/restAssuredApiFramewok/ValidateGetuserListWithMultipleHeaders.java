@@ -12,7 +12,7 @@ public class ValidateGetuserListWithMultipleHeaders {
                 .header("application/json","application/json")
                 .header("Authorization","Bearer your_access_token")
                 .when()
-                .get("posts/1")
+                .get("/posts/1")
                 .then()
                 .statusCode(200);
         System.out.println("Multiple Headers Automated Successfully");

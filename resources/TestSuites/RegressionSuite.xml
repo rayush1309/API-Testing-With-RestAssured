@@ -1,9 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Rest Assured Automation Suite">
     <test name="API Automation Test cases">
-        <classes>
-            <class name="restAssuredApiFramewok.End2EndAutomation" />
-            <class name="restAssuredApiFramewok.ValidateResponseHeaders" />
-        </classes>
+        <packages>
+            <package name="restAssuredApiFramewok"></package>
+        </packages>
     </test>
 </suite>

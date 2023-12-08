@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Automation Suite">
+    <test name="API Automation Test cases">
+        <groups>
+            <run>
+                <include name="Regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="restAssuredApiFramewok.TestNGSuiteDesign2" />
+             <class name="restAssuredApiFramewok.TestNGSuiteDesign"></class>
+        </classes>
+    </test>
+</suite>

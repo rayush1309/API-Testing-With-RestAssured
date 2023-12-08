@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
+      <change afterPath="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateGetuserListWithMultipleHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateGetuserListWithMultipleHeaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/AutomateGetResponseBodyAccessToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/End2EndAutomation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ExampleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/FormParamRestAssured.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/PathParameterRestAssured.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/RestAssuredExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateBasicAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateCookies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateCookies2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateDeleteMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateGetuserListWithMultipleHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateMultipleHeadersUsingMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateResponseHeaders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateResponsehasItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateStatusCodeQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidatefirstListData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateresponseContains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/getResponseBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/getResponseBodyAut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/validateResponsehasSize.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,52 +71,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/aushraj/IdeaProjects/RestAssuredAPITesting/target/generated-test-sources/test-annotations&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/Users/aushraj/IdeaProjects/RestAssuredAPITesting/target/generated-test-sources/test-annotations",
+    "last_opened_file_path": "/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.DataProviderValidation (1)">
-    <configuration name="DataProviderValidation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userManagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userManagement" />
-      <option name="MAIN_CLASS_NAME" value="userManagement.DataProviderValidation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataProviderValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.DataProviderValidation" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/TestSuites" />
+      <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -100,6 +100,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.End2EndAutomation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateGetuserListWithMultipleHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateGetuserListWithMultipleHeaders" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidateMultipleHeadersUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredApiFramewok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateMultipleHeadersUsingMap" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -124,52 +158,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateWithSoftwareUtils" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.ValidateWithSoftwareUtils" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateWithSoftwareUtils.validateResponseUsingSoftUtils" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.ValidateWithSoftwareUtils" />
-      <option name="METHOD_NAME" value="validateResponseUsingSoftUtils" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidationTestDataFromJsonRead" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="userMangement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="userMangement" />
-      <option name="MAIN_CLASS_NAME" value="userMangement.ValidationTestDataFromJsonRead" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,19 +191,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG.DataProviderValidation" />
-      <item itemvalue="TestNG.DataProviderValidation (1)" />
-      <item itemvalue="TestNG.ValidateWithSoftwareUtils" />
-      <item itemvalue="TestNG.ValidateWithSoftwareUtils.validateResponseUsingSoftUtils" />
-      <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
+      <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
+      <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderValidation (1)" />
-        <item itemvalue="TestNG.DataProviderValidation" />
-        <item itemvalue="TestNG.ValidationTestDataFromJsonRead" />
-        <item itemvalue="TestNG.ValidateWithSoftwareUtils.validateResponseUsingSoftUtils" />
-        <item itemvalue="TestNG.ValidateWithSoftwareUtils" />
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
+        <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap" />
+        <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
       </list>
     </recent_temporary>
   </component>
