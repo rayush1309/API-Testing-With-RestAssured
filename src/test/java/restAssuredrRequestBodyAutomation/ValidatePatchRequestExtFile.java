@@ -7,41 +7,42 @@ import org.apache.commons.io.IOUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
 
-public class ValidatePutRequest extends ValidatePostRequestBody3Ways {
+public class ValidatePatchRequestExtFile extends ValidatePostRequestBody3Ways {
 
     @Test
-    public void validatePutRequestUsingString() {
+    public void validatePATCHRequestUsingString() {
         RestAssured.baseURI = "https://reqres.in";
         Response response = given()
                 .header("Content-Type", "application/json")
-                .body("{\"name\":\"ayushRaj\",\"job\":\"SET\"}")
+                .body("{\"job\":\"SoftwareDevelopmentEngineerTest-1\"}")
                 .when()
-                .put("/api/users/346");
+                .patch("/api/users/2");
 
         Assert.assertEquals(response.getStatusCode(), StatusCode.SUCCESS.code);
         System.out.println(response.getBody().asString());
-        System.out.println("validatePutRequestUsingString() executed Suceesfully");
+        System.out.println("validatePATCHRequestUsingString() executed Successfully");
 
     }
 
     @Test
-    public void validatePUTRequestUsingJson() {
+    public void validatePATCHRequestUsingJson() {
         RestAssured.baseURI = "https://reqres.in";
         try {
             Response response = given()
                     .header("Content-Type", "application/json")
-                    .body(IOUtils.toString(fileInputStreamMethod("putRequestBody.json")))
+                    .body(IOUtils.toString(fileInputStreamMethod("patchRequestBody.json")))
                     .when()
-                    .put("/api/users/2");
+                    .patch("/api/users/2");
 
             Assert.assertEquals(response.getStatusCode(), StatusCode.SUCCESS.code);
             System.out.println(response.getBody().asString());
-            System.out.println("validate Put RequestUsingJson() executed Successfully");
+            System.out.println("validatePATCHRequestUsingJson() executed Successfully");
         } catch (FileNotFoundException e) {
             // Handle the exception or print an error message
             e.printStackTrace();
@@ -50,4 +51,7 @@ public class ValidatePutRequest extends ValidatePostRequestBody3Ways {
             e.printStackTrace();
         }
     }
+
+
+
 }

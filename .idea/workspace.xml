@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/resources/TestData/postRequestBodyJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TestData/patchRequestBody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TestData/putRequestBody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePatchRequestExtFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestBody3Ways.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,19 +55,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/Users/aushraj/IdeaProjects/RestAssuredAPITesting/target/generated-test-sources/test-annotations",
-    "last_opened_file_path": "/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites",
+    "last_opened_file_path": "/Users/aushraj/IdeaProjects/RestAssuredAPITesting/src/test/java/restAssuredrRequestBodyAutomation",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="restAssuredrRequestBodyAutomation" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation" />
       <recent name="$PROJECT_DIR$/resources/TestSuites" />
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile">
+  <component name="RunManager" selected="TestNG.ValidatePutRequest.validatePUTRequestUsingJson">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -82,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatePatchrequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePatchRequestExtFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchrequest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchRequestExtFile" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatePatchrequest.validatePATCHRequestUsingString" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePatchRequestExtFile.validatePATCHRequestUsingJson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -108,9 +115,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchrequest" />
-      <option name="METHOD_NAME" value="validatePATCHRequestUsingString" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePatchRequestExtFile" />
+      <option name="METHOD_NAME" value="validatePATCHRequestUsingJson" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePostRequestBody3Ways" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePostRequestBody3Ways" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,7 +159,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatePutRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePutRequest.validatePUTRequestUsingJson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -145,24 +169,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
       <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePutRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidatePutRequest.validatePutRequestUsingString" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePutRequest" />
-      <option name="METHOD_NAME" value="validatePutRequestUsingString" />
+      <option name="METHOD_NAME" value="validatePUTRequestUsingJson" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,19 +197,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG.ValidatePatchrequest" />
-      <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
+      <item itemvalue="TestNG.ValidatePatchRequestExtFile" />
+      <item itemvalue="TestNG.ValidatePatchRequestExtFile.validatePATCHRequestUsingJson" />
+      <item itemvalue="TestNG.ValidatePostRequestBody3Ways" />
       <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile" />
-      <item itemvalue="TestNG.ValidatePutRequest" />
-      <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
+      <item itemvalue="TestNG.ValidatePutRequest.validatePUTRequestUsingJson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ValidatePutRequest.validatePUTRequestUsingJson" />
+        <item itemvalue="TestNG.ValidatePatchRequestExtFile.validatePATCHRequestUsingJson" />
+        <item itemvalue="TestNG.ValidatePatchRequestExtFile" />
+        <item itemvalue="TestNG.ValidatePostRequestBody3Ways" />
         <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile" />
-        <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
-        <item itemvalue="TestNG.ValidatePatchrequest" />
-        <item itemvalue="TestNG.ValidatePutRequest" />
-        <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
       </list>
     </recent_temporary>
   </component>
