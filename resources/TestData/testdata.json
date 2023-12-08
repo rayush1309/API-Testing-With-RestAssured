@@ -1,5 +1,8 @@
 {
   "username": "postman",
   "password": "password",
-  "endpoint": "/api/users"
+  "endpoint": "/api/users",
+  "languages": ["Java","C","Python","Java Script"],
+  "technology": ["AI","ML","Analytics","Big Data"]
+
 }
