@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePatchrequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TestData/postRequestBodyJson.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString">
+  <component name="RunManager" selected="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -118,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatePostRequestbodyAut.validatePostWithString" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatePostRequestbodyAut.validatePostWithJsonFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
       <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidatePostRequestbodyAut" />
-      <option name="METHOD_NAME" value="validatePostWithString" />
+      <option name="METHOD_NAME" value="validatePostWithJsonFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,17 +192,17 @@
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
       <item itemvalue="TestNG.ValidatePatchrequest" />
       <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
-      <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithString" />
+      <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile" />
       <item itemvalue="TestNG.ValidatePutRequest" />
       <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithJsonFile" />
         <item itemvalue="TestNG.ValidatePatchrequest.validatePATCHRequestUsingString" />
         <item itemvalue="TestNG.ValidatePatchrequest" />
         <item itemvalue="TestNG.ValidatePutRequest" />
         <item itemvalue="TestNG.ValidatePutRequest.validatePutRequestUsingString" />
-        <item itemvalue="TestNG.ValidatePostRequestbodyAut.validatePostWithString" />
       </list>
     </recent_temporary>
   </component>
