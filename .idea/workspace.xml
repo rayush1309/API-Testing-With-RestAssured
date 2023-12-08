@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TestSuites/ParallelTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateGetuserListWithMultipleHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateGetuserListWithMultipleHeaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/AutomateGetResponseBodyAccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/End2EndAutomation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ExampleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/FormParamRestAssured.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/PathParameterRestAssured.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/RestAssuredExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/TestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateBasicAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateCookies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateCookies2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateDeleteMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateGetuserListWithMultipleHeaders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateMultipleHeadersUsingMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateResponseHeaders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateResponsehasItems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateStatusCodeQueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidatefirstListData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/ValidateresponseContains.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/getResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/getResponseBodyAut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/userMangement/validateResponsehasSize.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml">
+  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml">
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -107,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateGetuserListWithMultipleHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGSuiteDesign2.fetchCookieFromResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -116,25 +90,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateGetuserListWithMultipleHeaders" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateMultipleHeadersUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateMultipleHeadersUsingMap" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.TestNGSuiteDesign2" />
+      <option name="METHOD_NAME" value="fetchCookieFromResponse" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,6 +110,16 @@
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.ValidateTestDataFromPropertyFile" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/ParallelTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -191,19 +159,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
-      <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
-      <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap" />
+      <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/ParallelTest.xml" />
+        <item itemvalue="TestNG.TestNGSuiteDesign2.fetchCookieFromResponse" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SmokeSuite.xml" />
-        <item itemvalue="TestNG.ValidateMultipleHeadersUsingMap" />
-        <item itemvalue="TestNG.ValidateGetuserListWithMultipleHeaders" />
       </list>
     </recent_temporary>
   </component>
