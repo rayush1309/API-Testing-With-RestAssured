@@ -3,12 +3,11 @@
     <test name="API Automation Test cases">
         <groups>
             <run>
-                <include name="Regression" />
+                <include name="sanity" />
             </run>
         </groups>
         <classes>
-            <class name="restAssuredApiFramewok.TestNGSuiteDesign2" />
-             <class name="restAssuredApiFramewok.TestNGSuiteDesign"></class>
+            <class name="restAssuredApiFramewok.TestNGSuiteDesign" />
         </classes>
     </test>
 </suite>

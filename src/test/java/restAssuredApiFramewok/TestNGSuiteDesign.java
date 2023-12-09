@@ -1,5 +1,6 @@
 package restAssuredApiFramewok;
 
+import core.BaseTest;
 import core.StatusCode;
 import io.restassured.RestAssured;
 import io.restassured.http.Cookie;
@@ -8,6 +9,7 @@ import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import utils.ExtentReport;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -20,26 +22,33 @@ import static org.hamcrest.Matchers.*;
 import static org.hamcrest.Matchers.equalTo;
 import static org.testng.Assert.assertEquals;
 
-public class TestNGSuiteDesign {
-    @Test(groups = "Regression")
+public class TestNGSuiteDesign  extends BaseTest {
+    @Test(groups = {"Regression","sanity"})
     public void getResponseBody() {
         // Set base URI for the API
         RestAssured.baseURI = "https://stageapp.tekioncloud.xyz";
+        ExtentReport.extentlog = ExtentReport.extentReport.startTest("testCookieUsingCookieBuilder"+
+                "Validate 200 Status code for Get request");
+
+
         given().when().get("api/wms/parts/u/inventory/utility/extended/report/compute/all-sites")
                 .then()
-                .statusCode(401)
+                .statusCode(200)
                 .body(not(isEmptyString()))
                 .assertThat()
                 .body("message", equalTo("Token doesn't exist or is invalid"))
                 .body("status", equalTo(StatusCode.UNAUTHORIZED.code));
     }
-    @Test(groups = "smoke")
+    @Test(groups = {"sanity", "regression"})
+
     public void getResponseBody2() {
         // Set base URI for the API
         RestAssured.baseURI = "https://stageapp.tekioncloud.xyz";
+        ExtentReport.extentlog = ExtentReport.extentReport.startTest("getResponseBody2"+
+                "Validate 200 Status code for Get request");
         given().when().get("api/wms/parts/u/inventory/utility/extended/report/compute/all-sites")
                 .then()
-                .statusCode(401)
+                .statusCode(200)
                 .assertThat()
                 .body("message", equalTo("Token doesn't exist or is invalid"))
                 .body("status", equalTo(StatusCode.UNAUTHORIZED.code));
@@ -120,6 +129,9 @@ public class TestNGSuiteDesign {
     public void testCookieUsingCookieBuilder() {
         // Set the base URI for your API
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
+        ExtentReport.extentlog = ExtentReport.extentReport.startTest("testCookieUsingCookieBuilder"+
+                "Validate 200 Status code for Get request");
+
         // Create a Cookie object
         Cookie cookies = new Cookie.Builder("cookieKey1", "cookieValue1")
                 .setComment("using Cookie key")

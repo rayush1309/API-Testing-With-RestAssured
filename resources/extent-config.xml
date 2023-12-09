@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Path where the extent report file will be generated -->
+        <extent>
+            <property name="extent.reporter.html.start" value="true" />
+            <property name="extent.reporter.html.out" value="test-output/extent-report.html" />
+        </extent>
+
+        <!-- Document title for the HTML report -->
+        <documentTitle>My Test Automation Report</documentTitle>
+
+        <!-- Headline or title for the HTML report -->
+        <reportHeadline>Automation Test Report</reportHeadline>
+
+        <!-- Theme for the HTML report (standard, dark) -->
+        <theme>standard</theme>
+
+        <!-- Date format for the HTML report -->
+        <dateFormat>yyyy-MM-dd HH:mm:ss</dateFormat>
+    </configuration>
+</extentreports>

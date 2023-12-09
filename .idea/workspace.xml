@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/resources/TestSuites/RettryListner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corJava/Interview" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corJava/MergeListinSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/FailedRetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RetryListner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helper/BaseTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/FileUpload_Download.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/corJava/Interview" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/Interview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/corJava/MergeListinSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coreJava/MergeListinSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/TestNGSuiteDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateDeleteMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok/ValidateDeleteMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +78,20 @@
       <recent name="$PROJECT_DIR$/src/test/java/restAssuredApiFramewok" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml">
+  <component name="RunManager" selected="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml">
+    <configuration name="MergeListinSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coreJava.MergeListinSorted" />
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coreJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="End2EndAutomation" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -90,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormParamRestAssured" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGSuiteDesign" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
         <pattern>
@@ -99,59 +118,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.FormParamRestAssured" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateCookies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateCookies" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateCookies2.validateCookie" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateCookies2" />
-      <option name="METHOD_NAME" value="validateCookie" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateDeleteMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredApiFramewok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssuredApiFramewok" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.ValidateDeleteMethod" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredApiFramewok.TestNGSuiteDesign" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -176,6 +143,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RettryListner.xml" />
@@ -186,22 +163,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.MergeListinSorted" />
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" />
-      <item itemvalue="TestNG.FormParamRestAssured" />
-      <item itemvalue="TestNG.ValidateCookies" />
-      <item itemvalue="TestNG.ValidateCookies2.validateCookie" />
-      <item itemvalue="TestNG.ValidateDeleteMethod" />
+      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
+      <item itemvalue="TestNG.TestNGSuiteDesign" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
+        <item itemvalue="TestNG.TestNGSuiteDesign" />
+        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
+        <item itemvalue="Application.MergeListinSorted" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RettryListner.xml" />
-        <item itemvalue="TestNG.FormParamRestAssured" />
-        <item itemvalue="TestNG.ValidateDeleteMethod" />
-        <item itemvalue="TestNG.ValidateCookies2.validateCookie" />
-        <item itemvalue="TestNG.ValidateCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -260,5 +247,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RestAssuredAPITesting$_Users_aushraj_IdeaProjects_RestAssuredAPITesting_resources_TestSuites_SanitySuite_xml.ic" NAME="$PROJECT_DIR$/resources/TestSuites/SanitySuite.xml Coverage Results" MODIFIED="1702152895988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
