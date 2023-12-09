@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Automation Suite" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="utils.RetryListner"></listener>
+    </listeners>
+    <test name="API Automation Test cases">
+        <classes>
+            <class name="restAssuredApiFramewok.FormParamRestAssured"></class>
+
+        </classes>
+    </test>
+</suite>

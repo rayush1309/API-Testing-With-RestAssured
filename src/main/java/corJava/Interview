@@ -1,0 +1,59 @@
+23. Merge k Sorted Lists
+24. Merge Two array which is sorted order -> merge them such that they will be in sorted
+25. If we are launching a product that coupon of discount offer which is visible to 50% of user so
+what could be the region remaning feature is not able to see.
+what are the
+------------------------->
+
+if you are experiencing a discrepancy between the behavior in
+the User Acceptance Testing (UAT) environment and the production environment, there are several
+potential reasons for this issue. Here are some steps to investigate and resolve the problem:
+
+Configuration Differences:
+
+Compare the configurations between the UAT and production environments. Ensure that the feature
+ toggle or coupon visibility setting is configured correctly in both environments.
+Data Consistency:
+
+Check the consistency of the data between UAT and production. Ensure that the user
+data, including any segmentation criteria or eligibility conditions for the coupon, is the same in both environments.
+Code Deployment:
+
+Verify that the code deployed to the production environment is the same version as the one tested in UAT.
+ Confirm that there were no deployment issues or code changes that might affect the visibility of the coupon.
+Feature Toggles:
+
+If you are using feature toggles or flags to control the visibility of the coupon, ensure that the toggle is correctly set in the production environment. Confirm that there are no issues with the feature toggle implementation.
+Logging and Monitoring:
+
+Implement logging and monitoring in your production environment to track how the coupon visibility is determined for users. Examine the logs to identify any issues or discrepancies.
+Database Queries:
+
+Check the database queries or data retrieval logic responsible for determining whether a user is
+ eligible to see the coupon. Ensure that the queries are working as expected in the production environment.
+Rollout Strategy:
+
+Review the rollout strategy for the coupon feature. If it is being gradually rolled out, confirm that the
+rollout percentage or criteria are set correctly in the production environment.
+User Segmentation:
+
+If the coupon visibility is based on user segmentation, validate that the segmentation criteria are correctly
+applied in the production environment. Confirm that the user attributes are accurately reflected.
+Caching Mechanisms:
+
+Check if there are any caching mechanisms in place that might be affecting the visibility of the coupon.
+ Clear or refresh caches to ensure that the latest configurations are applied.
+Testing in Production (TiP):
+
+If feasible, consider implementing a "Testing in Production" approach to validate the coupon visibility
+directly in the production environment. Be cautious with this approach and ensure it doesn't impact the user experience.
+Rollback and Retry:
+
+If the issue persists and the impact is significant, consider rolling back the recent changes in the p
+roduction environment and retry the deployment after addressing any identified issues.
+
+
+Caching Mechanisms:
+
+Check if there are any caching mechanisms in place that might be affecting the visibility of the coupon.
+Clear or refresh caches to ensure that the latest configurations are applied.
