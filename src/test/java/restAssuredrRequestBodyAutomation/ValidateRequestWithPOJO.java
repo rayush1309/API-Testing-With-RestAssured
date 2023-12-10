@@ -32,7 +32,7 @@ public class ValidateRequestWithPOJO {
                         .post("/api/users");
         Assert.assertEquals(response.getStatusCode(), StatusCode.CREATED.code);
         System.out.println(response.getBody().asString());
-        System.out.println("PostWith JSon file Executed sucessfully");
+        System.out.println("PostWith POJO class Executed sucessfully");
 
 
     }
@@ -55,7 +55,7 @@ public class ValidateRequestWithPOJO {
                         .post("/api/users");
         Assert.assertEquals(response.getStatusCode(), StatusCode.CREATED.code);
         System.out.println(response.getBody().asString());
-        System.out.println("PostWith JSon file Executed sucessfully");
+        System.out.println("PostWith POJO list  Executed sucessfully");
 
 
     }

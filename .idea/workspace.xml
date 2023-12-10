@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/poJo/PostRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poJo/PostRequestBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidateRequestWithPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidateRequestWithPOJO.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
