@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/poJo/PostRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidateRequestWithPOJO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poJo/PostRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poJo/PostRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidateRequestWithPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidateRequestWithPOJO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidateRequestWithPOJO.validatePostWithPOJOList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredrRequestBodyAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredrRequestBodyAutomation" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredrRequestBodyAutomation.ValidateRequestWithPOJO" />
+      <option name="METHOD_NAME" value="validatePostWithPOJOList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidateTestDataFromPropertyFile" type="TestNG" nameIsGenerated="true">
       <module name="RestAssuredAPIAutomation" />
       <extension name="coverage">
@@ -150,16 +167,6 @@
       <option name="PACKAGE_NAME" value="userMangement" />
       <option name="MAIN_CLASS_NAME" value="userMangement.ValidateTestDataFromPropertyFile" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPIAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TestSuites/RegressionSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,19 +186,19 @@
     <list>
       <item itemvalue="TestNG.End2EndAutomation" />
       <item itemvalue="TestNG.ValidateTestDataFromPropertyFile" />
-      <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
       <item itemvalue="TestNG.TestNGSuiteDesign" />
       <item itemvalue="TestNG.ValidateRequestWithPOJO" />
       <item itemvalue="TestNG.ValidateRequestWithPOJO.validatePostWithPOJO" />
+      <item itemvalue="TestNG.ValidateRequestWithPOJO.validatePostWithPOJOList" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ValidateRequestWithPOJO" />
+        <item itemvalue="TestNG.ValidateRequestWithPOJO.validatePostWithPOJOList" />
         <item itemvalue="TestNG.ValidateRequestWithPOJO.validatePostWithPOJO" />
         <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/SanitySuite.xml" />
         <item itemvalue="TestNG.TestNGSuiteDesign" />
-        <item itemvalue="TestNG./Users/aushraj/IdeaProjects/RestAssuredAPITesting/resources/TestSuites/RegressionSuite.xml" />
       </list>
     </recent_temporary>
   </component>
