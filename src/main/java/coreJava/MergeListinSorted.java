@@ -1,6 +1,7 @@
 package coreJava;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MergeListinSorted {
@@ -8,9 +9,9 @@ public class MergeListinSorted {
 
 
         List<List<Integer>> ll = new ArrayList<>();
-        ll.add(arrayToList(new int[]{1, 3, 4}));
-        ll.add(arrayToList(new int[]{3, 5, 8}));
-        ll.add(arrayToList(new int[]{4, 5, 6}));
+        ll.add(Arrays.asList(1, 3, 4));
+        ll.add(Arrays.asList(3, 5, 6));
+
 
         List<Integer> sortedList = sortArray(ll);
 
@@ -39,6 +40,7 @@ public class MergeListinSorted {
         }
 
         return list2;
+
     }
 
     private static List<Integer> arrayToList(int[] array) {

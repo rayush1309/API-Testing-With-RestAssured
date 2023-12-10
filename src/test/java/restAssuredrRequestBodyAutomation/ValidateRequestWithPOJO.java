@@ -44,7 +44,7 @@ public class ValidateRequestWithPOJO {
 
         PostRequestBody pr = new PostRequestBody();
         pr.setName("Ayush ");
-        pr.setJob("Software Engineer-Test");
+        pr.setJob("Software Engineer-Test-1");
         pr.setLanguages(listLanguages);
         RestAssured.baseURI="https://reqres.in";
         Response response=
