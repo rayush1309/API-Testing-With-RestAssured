@@ -12,8 +12,8 @@ public class MeregeLinkedList {
         list.add(Arrays.asList(4,5,9,6));
 
         List<Integer> ans = sortList(list);
-       for(int k=0;k< ans.size();k++){
-           System.out.println(ans.get(k));
+       for(int k:ans){
+           System.out.println(k);
        }
 
 

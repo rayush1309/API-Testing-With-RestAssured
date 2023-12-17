@@ -6,6 +6,28 @@ public class PostRequestBody {
     private String name;
     private  String job;
     private List<String> languages;
+    private List<CityRequest> cityRequestBody;
+
+    public List<CityRequest> getCityRequestBody() {
+        return cityRequestBody;
+    }
+
+    public void setCityRequestBody(List<CityRequest> cityRequestBody) {
+        this.cityRequestBody = cityRequestBody;
+    }
+    private String updatedAt; // Add this field
+
+    // Existing getters and setters...
+
+    public String getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(String updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+
 
     public String getName() {
         return name;

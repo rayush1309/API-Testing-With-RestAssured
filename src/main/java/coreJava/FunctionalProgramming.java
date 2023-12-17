@@ -11,3 +11,9 @@ public class FunctionalProgramming {
         System.out.println(square.apply(5));
     }
 }
+
+
+//print permutation-count palindrome
+//count palindromic Substring
+//print subsequence
+//sorting
