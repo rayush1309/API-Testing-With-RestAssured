@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message">
-      <change afterPath="$PROJECT_DIR$/reports/Sat Dec 23 12-33-06 IST 2023/API_Execution_Automation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJava/PairSumEqualToK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJava/PairSumEqualToK1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coreJava/PairSumEqualtoKBF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SoftAssertionUtilsSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/builderPattern/BuilderPatternImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/APITESTAccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/API_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TestSuites/SmokeSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/RetryListner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RetryListner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SoftAssertionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SoftAssertionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredrRequestBodyAutomation/ValidatePostRequestbodyAut.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ae21909-587b-4588-bc54-a3dd5bb6e9bc" name="Changes" comment="Commit message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
