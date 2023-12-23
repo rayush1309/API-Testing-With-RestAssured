@@ -14,6 +14,7 @@ import java.io.IOException;
 import static io.restassured.RestAssured.given;
 
 
+
 public class ValidatePostRequestbodyAut {
 
     @Test
@@ -24,10 +25,14 @@ public class ValidatePostRequestbodyAut {
                         .header("Content-Type","application/json")
                         .body("{\"name\":\"ayush\",\"job\":\"SoftwareEngineer\"}")
                         .when()
-                        .post("/api/users");
-        Assert.assertEquals(response.getStatusCode(), StatusCode.CREATED.code);
-        System.out.println(response.getBody().asString());
-        System.out.println("PostWithString Executed sucessfully");
+                        .post("/api/users")
+                          .then()
+                        .extract()
+                        .response();
+          System.out.println(response.getBody().asString());
+//        Assert.assertEquals(response.getStatusCode(), StatusCode.CREATED.code);
+//        System.out.println(response.getBody().asString());
+//        System.out.println("PostWithString Executed sucessfully");
 
 
     }

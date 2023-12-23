@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Rest Assured Automation Suite">
+<suite name="Rest Assured Automation Suite" verbose="1">
     <test name="API Automation Test cases">
         <classes>
             <class name="restAssuredApiFramewok.End2EndAutomation" />

@@ -1,8 +1,9 @@
 package utils;
 
+import core.BaseTest;
 import org.testng.asserts.SoftAssert;
 
-public class SoftAssertionUtils {
+public class SoftAssertionUtils extends BaseTest {
 
     private SoftAssert softAssert;
 
@@ -46,10 +47,9 @@ public class SoftAssertionUtils {
         // You can customize how you want to handle the failure, e.g., logging, reporting, etc.
         System.out.println("Assertion failed: " + message);
         e.printStackTrace();
-        // You may throw the AssertionError again if you want the test to fail immediately
-        // throw e;
+
     }
 
-    // You can add more assertion methods as needed
+
 
 }

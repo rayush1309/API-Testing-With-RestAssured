@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="APIautomation" target="1.8" />
       <module name="RestAssuredAPITesting" target="1.5" />
     </bytecodeTargetLevel>
   </component>

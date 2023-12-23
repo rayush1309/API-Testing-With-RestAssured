@@ -10,9 +10,7 @@ import utils.ExtentReport;
 
 import java.io.IOException;
 
-public class BaseTest  {
-
-
+public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     public void config() throws IOException {
         //create the Path in which we will create folder to keep Html Reports
